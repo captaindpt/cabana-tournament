@@ -52,7 +52,9 @@
   a.div:hover, a.div:focus-visible { background: var(--wine-dark); }
   a.div strong { font-family: "Archivo Black", sans-serif; font-size: 16px; font-weight: 400; text-transform: uppercase; white-space: nowrap; }
   a.div small { font-size: 13px; opacity: .85; white-space: nowrap; margin-left: 12px; }
-  .steps { font-size: 14px; line-height: 1.5; margin: 0 0 18px; }
+  .steps { font-size: 14px; line-height: 1.5; margin: 0 0 18px; text-align: left; }
+  .steps p { margin: 0 0 6px; }
+  .steps ol { margin: 0; padding-left: 22px; }
   .steps a { color: var(--wine); font-weight: 600; }
   .note {
     margin: 20px 0 0;
@@ -76,8 +78,14 @@
     <span>3 games guaranteed</span> · <span>$50 per player</span> · <span>Register by Nov 25</span>
   </div>
 
-  <p class="steps"><strong>New to Cabana?</strong> Registration needs a free Cabana account (1 minute).
-    <a href="https://app.courtreserve.com/Online/Portal/CreateAccountAndRequestAccessToOrg/11046" target="_blank" rel="noopener">Create your account</a>, then come back to this page and pick your division.</p>
+  <div class="steps">
+    <p><strong>Open to everyone, no membership needed.</strong> First time with us? Two free steps first (about 2 minutes):</p>
+    <ol>
+      <li><a href="https://app.courtreserve.com/Online/Portal/CreateAccountAndRequestAccessToOrg/11046" target="_blank" rel="noopener">Create a free account</a></li>
+      <li>Add the free <a href="https://app.courtreserve.com/Online/Memberships/ViewMembership/11046?membershipId=254561" target="_blank" rel="noopener">Public Player pass</a> (tap <em>Review &amp; Finalize</em>, $0)</li>
+      <li>Come back here and pick your division</li>
+    </ol>
+  </div>
 
   <a class="div" href="https://app.courtreserve.com/Online/Events/Public/11046/2337002">
     <strong>Women's Doubles</strong><small>12:00 – 2:30 PM</small>
